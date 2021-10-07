@@ -7,7 +7,7 @@ global $banco;
 
 	<!-- START BREADCRUMB -->
                 <ul class="breadcrumb">
-                    <li class="active">Seja Bem Vindo</li>
+                    <li class="active">Startnet</li>
                 </ul>
                 <!-- END BREADCRUMB -->  
                 
@@ -85,12 +85,12 @@ global $banco;
 
 						<div class="col-md-4">
                             <!-- START WIDGET MESSAGES -->
-                            <div class="pointer widget widget-default widget-item-icon">
+                            <div class="pointer widget widget-info widget-item-icon">
                                 <div class="widget-item-left">
                                     <span class="fa fa-info"></span>
                                 </div>                             
                                 <div class="widget-data">
-                                <div class="widget-int num-count" style="font-size:25px;">Cota</div>
+                                <div class="widget-int num-count" style="font-size:25px;">  Créditos</div>
                                     <div class="widget-title" style="font-size:20px;"><?php echo $CotaRev; ?></div>
                                 </div>      
                             </div>                            
@@ -99,7 +99,7 @@ global $banco;
                         
                         <div class="col-md-4">
                             <!-- START WIDGET MESSAGES -->
-                            <div class="pointer widget widget-default widget-item-icon">
+                            <div class="pointer widget widget-primary widget-item-icon">
                                 <div class="widget-item-left">
                                     <span class="fa fa-user"></span>
                                 </div>                             
@@ -110,16 +110,58 @@ global $banco;
                             </div>                            
                             <!-- END WIDGET MESSAGES -->
                         </div>
-                        
-                        <div class="col-md-4">
+						
+						<div class="col-md-4">
                             <!-- START WIDGET MESSAGES -->
                             <div class="pointer widget widget-default widget-item-icon">
                                 <div class="widget-item-left">
-                                    <span class="fa fa-user"></span>
+                                    <span class="fa fa-check"></span>
                                 </div>                             
                                 <div class="widget-data">
                                 <div class="widget-int num-count" style="font-size:25px;">Teste Disponível</div>
                                     <div class="widget-title" style="font-size:12px;"><?php echo $LimiteTesteCota; ?></div>
+                                </div>      
+                            </div>                             
+                            <!-- END WIDGET MESSAGES -->
+                        </div>
+						
+						<div class="col-md-4">
+                            <!-- START WIDGET MESSAGES -->
+                            <div class="pointer widget widget-danger widget-item-icon">
+                                <div class="widget-item-left">
+                                    <span class="fa fa-users"></span>
+                                </div>                             
+                                <div class="widget-data">
+                                <div class="widget-int num-count" style="font-size:25px;">Usuários</div>
+                                    <a href="index.php?p=usuario" class="widget-title" style="font-size:12px;">Lista de Usuários</a>
+                                </div>      
+                            </div>                     
+                            <!-- END WIDGET MESSAGES -->
+                        </div>
+						
+						<div class="col-md-4">
+                            <!-- START WIDGET MESSAGES -->
+                            <div class="pointer widget widget-success widget-item-icon">
+                                <div class="widget-item-left">
+                                    <span class="fa fa-laptop"></span>
+                                </div>                             
+                                <div class="widget-data">
+                                <div class="widget-int num-count" style="font-size:25px;">Online</div>
+                                    <a href="index.php?p=online" class="widget-title" style="font-size:12px;"> usuários Online</a>
+                                </div>      
+                            </div>                                 
+                            <!-- END WIDGET MESSAGES -->
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <!-- START WIDGET MESSAGES -->
+                            <div class="pointer widget widget-warning widget-item-icon">
+                                <div class="widget-item-left">
+                                  <span class="fa fa-user-plus"></span>
+                                </div>                             
+                                <div class="widget-data">
+                                <div class="widget-int num-count" style="font-size:25px;">Revendedores</div>
+                                    <a href="index.php?p=revendedor" class="widget-title" style="font-size:12px;">Lista de Revendedores</a>
                                 </div>      
                             </div>                            
                             <!-- END WIDGET MESSAGES -->

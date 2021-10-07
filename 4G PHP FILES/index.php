@@ -8,7 +8,7 @@ if(ProtegePag() == true){
 <html lang="pt-br">
     <head>        
         <!-- META SECTION -->
-        <title>Internet4G</title>            
+        <title>Painel|Startnetplus</title>            
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,7 +17,7 @@ if(ProtegePag() == true){
         <!-- END META SECTION -->
         
         <!-- CSS INCLUDE -->        
-        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-night.css"/>
+        <link rel="stylesheet" type="text/css" id="theme" href="css/theme-dark.css"/>
         <!-- EOF CSS INCLUDE -->                   
     </head>
     <body>
